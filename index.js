@@ -1,5 +1,5 @@
 const { people, teams } = require("./data");
-
+const fs = require("fs");
 function shuffleArray(array) {
   for (let i = array.length - 1; i > 0; i--) {
     const j = Math.floor(Math.random() * (i + 1));
@@ -26,4 +26,5 @@ function sliceIntoChunks(people, teams) {
 }
 
 const shuffled = shuffleArray(people);
-const chunks = sliceIntoChunks(people, teams);
+const chunks = sliceIntoChunks(shuffled, teams);
+fs.writeFileSync("sovtech-world-cup-draw.json", JSON.stringify(chunks));
