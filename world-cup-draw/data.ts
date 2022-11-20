@@ -1,4 +1,4 @@
-const teams = [
+export const teams = [
   "Qatar",
   "Ecuador",
   "Senegal",
@@ -33,7 +33,138 @@ const teams = [
   "South Korea",
 ];
 
-const people = [
+export const teamsInfo = {
+  Qatar: {
+    icon: "🇶🇦",
+    odds: "1500/1",
+  },
+  Ecuador: {
+    icon: "🇬🇶",
+    odds: "150/1",
+  },
+  Senegal: {
+    icon: "🇸🇳",
+    odds: "200/1",
+  },
+  Netherlands: {
+    icon: "🇳🇱",
+    odds: "16/1",
+  },
+  England: {
+    icon: "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    odds: "21/2",
+  },
+  Iran: {
+    icon: "🇮🇷",
+    odds: "750/1",
+  },
+  USA: {
+    icon: "🇺🇸",
+    odds: "250/1",
+  },
+  Wales: {
+    icon: "🏴󠁧󠁢󠁷󠁬󠁳󠁿",
+    odds: "350/1",
+  },
+  Argentina: {
+    icon: "🇦🇷",
+    odds: "6/1",
+  },
+  "Saudi Arabia": {
+    icon: "🇸🇦",
+    odds: "1000/1",
+  },
+  Mexico: {
+    icon: "🇲🇽",
+    odds: "189/1",
+  },
+  Poland: {
+    icon: "🇵🇱",
+    odds: "279/1",
+  },
+  France: {
+    icon: "🇫🇷",
+    odds: "43/5",
+  },
+  Australia: {
+    icon: "🇦🇺",
+    odds: "500/1",
+  },
+  Denmark: {
+    icon: "🇩🇰",
+    odds: "33/1",
+  },
+  Tunisia: {
+    icon: "🇹🇳",
+    odds: "1000/1",
+  },
+  Spain: {
+    icon: "🇪🇸",
+    odds: "10/1",
+  },
+  "Costa Rica": {
+    icon: "🇨🇷",
+    odds: "1000/1",
+  },
+  Germany: {
+    icon: "🇩🇪",
+    odds: "23/2",
+  },
+  Japan: {
+    icon: "🇯🇵",
+    odds: "500/1",
+  },
+  Belgium: {
+    icon: "🇧🇪",
+    odds: "20/1",
+  },
+  Canada: {
+    icon: "🇨🇦",
+    odds: "500/1",
+  },
+  Morocco: {
+    icon: "🇲🇦",
+    odds: "500/1",
+  },
+  Croatia: {
+    icon: "🇭🇷",
+    odds: "75/1",
+  },
+  Brazil: {
+    icon: "🇧🇷",
+    odds: "7/2",
+  },
+  Serbia: {
+    icon: "🇷🇸",
+    odds: "125/1",
+  },
+  Switzerland: {
+    icon: "🇨🇭",
+    odds: "140/1",
+  },
+  Cameroon: {
+    icon: "🇨🇲",
+    odds: "650/1",
+  },
+  Portugal: {
+    icon: "🇵🇹",
+    odds: "16/1",
+  },
+  Ghana: {
+    icon: "🇬🇭",
+    odds: "150/1",
+  },
+  Uruguay: {
+    icon: "🇬🇶",
+    odds: "750/1",
+  },
+  "South Korea": {
+    icon: "🇰🇷",
+    odds: "550/1",
+  },
+};
+
+export const people = [
   "Abiola Ogunjobi",
   "Adam Sachs",
   "Akumu Bavon",
@@ -49,14 +180,12 @@ const people = [
   "Angie Martins",
   "Angus Charter",
   "Annetjie Morris",
-  "annie",
   "Anri Coetzee",
   "Anu Apiti",
   "Aobakwe",
   "Aqeel Abader",
   "Arnold Vosloo",
   "Ashleigh Neimann",
-  "Ashleigh Niemann",
   "Ashleigh Tasker",
   "Bafana Mahamba",
   "Barbara Visser",
@@ -84,7 +213,6 @@ const people = [
   "Danell van Tonder",
   "Daniel Harten",
   "Daniel Maartens",
-  "Daniel Maartens",
   "Darrah Paslovsky",
   "Dean Tawonezvi",
   "Deni Buys",
@@ -105,7 +233,6 @@ const people = [
   "Faron Gottlieb",
   "Gabin Kabuya",
   "Garth Smith",
-  "Garth Smith",
   "George Sebastiaan van Heerden",
   "Gerald Neves",
   "Gregor Simpson",
@@ -115,7 +242,6 @@ const people = [
   "Hilton Kudyahakudadirwe",
   "Ilhaam Tagodien",
   "Isaack Seshoka",
-  "Itumeleng Morei",
   "Jaco Munnik",
   "Jameel Geduld",
   "Jamie Chennells",
@@ -144,7 +270,6 @@ const people = [
   "Kudakwashe Mupeni",
   "Kudzai Mabika",
   "Lethlhogonolo Sekwati",
-  "Letlhogonolo Sekwati",
   "Lewis Evans",
   "Lolo Gladys",
   "Lolontle Moatshe",
@@ -172,7 +297,6 @@ const people = [
   "Mongezi Mabena",
   "Moses Idowu",
   "Moses Mulondo",
-  "Moses Ngwerume",
   "Mugove Machaka",
   "Nadia Criticos",
   "Naomi Hoogeweegen",
@@ -195,7 +319,6 @@ const people = [
   "Robert Menin",
   "Rodgers Tanui",
   "Roland Bitalo",
-  "Romeo Zikalala",
   "Ronald Hove",
   "Ryan Seal",
   "Samuel Ocran",
@@ -250,8 +373,3 @@ const people = [
   "Zac",
   "Zoleka Kubheka",
 ];
-
-module.exports = {
-  teams,
-  people,
-};
