@@ -327,7 +327,6 @@ export const people = [
   "Sanvir Dessai",
   "Sarah Druce",
   "Sarah Mills",
-  "Seretla Mahlagare",
   "Shaeen Kumalaseelan",
   "Shanique Jooste",
   "Shawn Whelan",
