@@ -1,4 +1,4 @@
-# world-cup-draw
+# 2022 World Cup Draw
 
 Rough, quick as possible world cup draw for SovTech.
 
